@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    /* overflow: hidden; */
+    overflow-x: hidden;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ 
+section{
+    height: 100vh;
+    /* background-image: url(https://www.ecelliitk.org/images/hero-bg.jpg); */
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230416/pngtree-background-wall-gray-black-bricks-image_2408221.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first{
+    /* background-color: aliceblue; */
+    
+    /* display: flex; */
+}
+.upper-box{
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.481);
+    height: 50px;
+    left: 20px;
+    width: 95%;
+    border-radius: 15px;
+    top: 26px;
+}
+.navigation-bar{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: calc(100% - 500px);
+    top: 32px;
+    min-width: 500px;
+    z-index: 2;
+    
+    opacity: 100%;
+}
+.nav{
+    font-family: "montserrat-regular", sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.navigation-bar a:hover{
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+li{
+    float: left;
+    margin: 10px;
+}
+.navigation-bar img{
+    position: fixed;
+    left: 32px;
+    top: 32px;
+    width: 50px;  
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: WHITE;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    /* padding-top: 280px; */
+
+    height: 85%;
+}
+.first_bot{
+    padding-left: 20px;
+    /* background-color: black; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+
+
+.second{
+
+    /* background-color: black; */
+     /* background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); */
+} 
+.content{
+    /* background-color: white; */
+    background-color: rgba(0, 0, 0, 0.264);
+    height: 100%;
+    position: relative;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.startup{
+    background-color: rgba(0, 0, 0, 0.701);
+    align-content: center;
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(187, 187, 187, 0.19), 0 6px 6px rgba(183, 183, 183, 0.23);
+}
+.company-logo{
+    
+    height: 60px;
+    
+}
+.company-logo img{
+   padding-left: 20px; 
+   height: 200%;
+}
+
+.details{
+  
+    height: 90%;
+    display: flex;
+}
+.founder-photo{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    height:100% ;
+    width: 50%;
+}
+.founder-photo img{
+    border: solid black 2px ;
+    border-radius: 20px;
+    height: 100%;
+    overflow: hidden;
+}
+.founder-discription{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    padding-left: 50px;
+}
+.founder-discription span{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#name{
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.founder-discription p{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.fa-thumbs-up{
+    position: relative;
+    font-size: 30px;
+    top: 130px;
+    left: 540px;  
+}
+.fa-comments{
+    position: relative;
+    font-size: 30px;
+    top: 100px;
+    left: 590px;  
+}
+.fa-arrow-left{
+    font-size: 40px;
+}
+.fa-arrow-right{
+    font-size: 40px;
+}
+
+
+.third{
+    /* background-color: blue; */
+    font-family: "librebaskerville-regular", serif;
+    color: white;
+}
+
+#third-box{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.contacts-details{
+    height: 70%;
+    width: 40%;
+    /* background-color: white; */
+    text-align: center;
+    margin-top: 20px
+}
+
+.contacts-details span{
+    margin-bottom: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+#para{
+    margin-top: 40px;   
+}
+.contacts-details h5{
+    margin-top: 20px;  
+    margin-bottom: 5px; 
+}
+.contacts-details p{
+    margin-top: px;   
+}
+
+.contacts-form{
+    display: flex;
+    align-items: CENTER;
+    /* justify-content: center; */
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: rgba(223, 223, 223, 0.24) 1px 3px 8px;
+    height: 70%;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.489);
+}
+.contacts-form h1{
+    margin-top: 20px;
+    font: 100 50px 'Oswald', sans-serif;
+}
+form{  
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+
+    padding: 10px 35px;
+}
+.input{
+    margin-top: 20px;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(243, 243, 243, 0.07);
+    border-radius: 10px;
+    border-color: white;
+    color:white;
+    margin-bottom: 20px;
+    border-color: 2px solid white;
+    color:solid white;
+}
+input{
+    width: 100%;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.697);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.493);
+    font-size: 15px;
+    border-radius: 10px;
+}
+.messages{
+    height: 140px;
+
+}
+.message{
+    display: FLEX;
+    align-items: end;
+    text-align:inherit;
+    text-wrap: wrap;
+    padding-bottom: 80px;
+}
+button{
+    margin-left: 200px;
+    height: 30px;
+    width: 80px;
+    background-color: rgba(9, 9, 92, 0.375);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.493);
+}
+button:hover{
+    background-color: rgba(15, 15, 186, 0.375);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.nav a:hover{
+    color: orange;
+}
+i{
+    color: white;
+    cursor: pointer;
+}
+.fa-facebook-f:hover{
+    color:blue ;
+}
+.fa-instagram:hover{
+    color: rgb(249, 0, 0) ;
+}
+.fa-facebook-f:hover{
+    color:blue ;
+}
